@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": false,
+    "types": [
+      "mocha",
+      "chai",
+      // "node"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+   "TEST"
+  ],
+}
